@@ -1,4 +1,4 @@
 # fitness_app Welcome Page
-[api documentation](./api/readme.md)
+[api documentation](./api/README.md)
 
-[ux documentation](./uxx/readme.md)
+[ux documentation](./ux/README.md)
