@@ -12,5 +12,4 @@ class Exercise(models.Model):
     reps = models.IntegerField()
 
 class Set(models.Model):
-    exercise = models.AutoField(queryset = Exercise, empty_label="(nothing)")
-    Workout = models.ForeignKey(Workout, on_delete = models.CASCADE)
+       Workout = models.ForeignKey(Workout, on_delete = models.CASCADE)
