@@ -23,6 +23,9 @@ from api.tracking import views
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
 router.register(r'groups', views.GroupViewSet)
+router.register(r'Set', views.SetViewSet)
+router.register(r'Workout', views.WorkoutViewSet)
+router.register(r'Exercise', views.ExerciseViewSet)
 
 #Wire up our API using automatic URL routing.
 #Additionally, we include login URLs for the browsable API.
